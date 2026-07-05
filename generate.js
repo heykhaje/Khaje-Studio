@@ -1,0 +1,2 @@
+const svg = `<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='1.5' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='matrix' values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  1.5 0 0 0 -0.2'/></filter><rect width='100%' height='100%' filter='url(#n)'/></svg>`; 
+console.log('url("data:image/svg+xml;base64,' + Buffer.from(svg).toString('base64') + '")');

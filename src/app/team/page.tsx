@@ -1,7 +1,10 @@
+import Image from "next/image";
+
 interface TeamMember {
   name: string;
   role: string;
   specialty: string;
+  image?: string;
   socials?: {
     instagram?: string;
     github?: string;
@@ -15,6 +18,7 @@ export default function Team() {
       name: "Adji Prasetyo",
       role: "Leader / Owner & UI/UX Design",
       specialty: "Frontend & Backend",
+      image: "/adji-pras.jpeg",
       socials: {
         instagram: "https://www.instagram.com/heykhaje?igsh=MWJiZWd5YXRzNnFsdw==",
         github: "https://github.com/heykhaje",
@@ -63,9 +67,13 @@ export default function Team() {
         {team.map((member, index) => (
           <div key={index} className="flex flex-col group">
             <div className="aspect-[3/4] bg-surface-dim neo-brutalist-border relative overflow-hidden neo-brutalist-shadow mb-6 transition-all duration-200 group-hover:-translate-y-2 group-hover:translate-x-[-2px] group-hover:shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] group-active:translate-y-2 group-active:translate-x-2 group-active:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
-              <div className="w-full h-full bg-surface-dim flex items-center justify-center">
-                <span className="font-headline-md opacity-20 uppercase text-center">Photo<br/>Placeholder</span>
-              </div>
+              {member.image ? (
+                <Image src={member.image} alt={member.name} fill className="object-cover grayscale hover:grayscale-0 transition-all duration-300" />
+              ) : (
+                <div className="w-full h-full bg-surface-dim flex items-center justify-center">
+                  <span className="font-headline-md opacity-20 uppercase text-center">Photo<br/>Placeholder</span>
+                </div>
+              )}
               <div className="absolute top-4 left-4 bg-primary-container text-on-surface neo-brutalist-border px-2 py-1 font-label-bold text-xs">
                 {String(index + 1).padStart(2, "0")}
               </div>

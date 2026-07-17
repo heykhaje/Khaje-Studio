@@ -26,7 +26,7 @@ export default function Services() {
           <h2 className="font-headline-lg text-headline-md md:text-headline-lg uppercase bg-on-surface text-background px-6 py-2">Jasa Pembuatan Website Profesional</h2>
           <div className="h-1 flex-grow bg-on-surface hidden md:block"></div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
           {/* Card 1: Company Profile */}
           <div className="neo-brutalist-border bg-white p-8 flex flex-col gap-6 neo-brutalist-shadow hover-lift transition-all group">
             <div className="flex justify-between items-start">
@@ -42,10 +42,25 @@ export default function Services() {
             <a href="https://wa.me/message/CCBS3IH7YETTC1" target="_blank" rel="noopener noreferrer" className="inline-block text-center mt-auto neo-brutalist-border bg-primary px-6 py-4 text-white font-label-bold uppercase hover:bg-on-surface transition-colors">GET QUOTE</a>
           </div>
 
-          {/* Card 2: Lawyer Website */}
-          <div className="neo-brutalist-border bg-secondary-fixed p-8 flex flex-col gap-6 neo-brutalist-shadow hover-lift transition-all">
+          {/* Card 1.5: Website Portfolio */}
+          <div className="neo-brutalist-border bg-tertiary-container p-8 flex flex-col gap-6 neo-brutalist-shadow hover-lift transition-all group">
             <div className="flex justify-between items-start">
               <span className="font-label-bold text-outline">02</span>
+            </div>
+            <h3 className="font-headline-md text-headline-md uppercase">Website Portfolio</h3>
+            <p className="text-on-surface-variant">Showcase your creative work and professional experience with an aesthetic, highly personalized digital portfolio.</p>
+            <ul className="flex flex-col gap-2 font-label-bold text-xs uppercase">
+              <li>• UNIQUE DESIGN</li>
+              <li>• FAST LOADING</li>
+              <li>• SEO FRIENDLY</li>
+            </ul>
+            <a href="https://wa.me/message/CCBS3IH7YETTC1" target="_blank" rel="noopener noreferrer" className="inline-block text-center mt-auto neo-brutalist-border bg-tertiary px-6 py-4 text-white font-label-bold uppercase hover:bg-on-surface transition-colors">GET QUOTE</a>
+          </div>
+
+          {/* Card 3: Lawyer Website */}
+          <div className="neo-brutalist-border bg-secondary-fixed p-8 flex flex-col gap-6 neo-brutalist-shadow hover-lift transition-all">
+            <div className="flex justify-between items-start">
+              <span className="font-label-bold text-outline">03</span>
             </div>
             <h3 className="font-headline-md text-headline-md uppercase">Lawyer Website</h3>
             <p className="text-on-surface-variant">Sophisticated and trustworthy digital platforms designed specifically for legal professionals and law firms.</p>
@@ -57,10 +72,10 @@ export default function Services() {
             <a href="https://wa.me/message/CCBS3IH7YETTC1" target="_blank" rel="noopener noreferrer" className="inline-block text-center mt-auto neo-brutalist-border bg-secondary px-6 py-4 text-white font-label-bold uppercase hover:bg-on-surface transition-colors">EXPLORE</a>
           </div>
 
-          {/* Card 3: e-Commerce */}
+          {/* Card 4: e-Commerce */}
           <div className="neo-brutalist-border bg-primary-container p-8 flex flex-col gap-6 neo-brutalist-shadow hover-lift transition-all">
             <div className="flex justify-between items-start">
-              <span className="font-label-bold text-outline">03</span>
+              <span className="font-label-bold text-outline">04</span>
             </div>
             <h3 className="font-headline-md text-headline-md uppercase">e-Commerce</h3>
             <p className="text-on-surface-variant">Convert visitors into customers with high-conversion storefronts built on modern architecture.</p>

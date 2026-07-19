@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="flex-1">
       {/* Hero Section */}
-      <section className="relative flex flex-col items-center justify-center text-center px-margin-mobile pt-24 pb-16 md:pt-32 md:pb-24 border-b-4 border-on-surface overflow-hidden">
+      <section className="relative flex flex-col items-center justify-start text-center px-margin-mobile pt-8 pb-12 md:pt-12 md:pb-16 border-b-4 border-on-surface overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-10 bg-primary pointer-events-none" />
         
         <div className="relative z-10 max-w-4xl">

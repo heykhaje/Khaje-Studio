@@ -9,11 +9,11 @@ export default function Home() {
         
         <div className="relative z-10 max-w-4xl">
           <h1 className="sr-only">Solusi Digital & Akademik Terbaikmu</h1>
-          <div className="flex justify-center items-center mb-8 w-full max-w-3xl mx-auto">
+          <div className="flex justify-center items-center mb-8 w-full max-w-lg md:max-w-xl mx-auto">
             <img 
               src="/hero-title.png" 
               alt="Solusi Digital dan Akademik Terbaikmu" 
-              className="w-full h-auto object-contain drop-shadow-[12px_12px_0px_rgba(0,0,0,1)] hover:drop-shadow-[16px_16px_0px_rgba(0,0,0,1)] hover:-translate-y-2 hover:-translate-x-2 transition-all duration-300"
+              className="w-full h-auto object-contain drop-shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:drop-shadow-[12px_12px_0px_rgba(0,0,0,1)] hover:-translate-y-1 hover:-translate-x-1 transition-all duration-300"
             />
           </div>
           <p className="font-body-lg text-body-lg mb-12 max-w-2xl mx-auto">

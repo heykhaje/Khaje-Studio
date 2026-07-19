@@ -8,9 +8,14 @@ export default function Home() {
         <div className="absolute inset-0 z-0 opacity-10 bg-primary pointer-events-none" />
         
         <div className="relative z-10 max-w-4xl">
-          <h1 className="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg uppercase mb-8 leading-tight">
-            Solusi Digital &amp; <span className="bg-primary-container px-4 neo-brutalist-border inline-block mt-2 md:mt-0">Akademik</span> Terbaikmu
-          </h1>
+          <h1 className="sr-only">Solusi Digital & Akademik Terbaikmu</h1>
+          <div className="flex justify-center items-center mb-8 w-full max-w-3xl mx-auto">
+            <img 
+              src="/hero-title.png" 
+              alt="Solusi Digital dan Akademik Terbaikmu" 
+              className="w-full h-auto object-contain drop-shadow-[12px_12px_0px_rgba(0,0,0,1)] hover:drop-shadow-[16px_16px_0px_rgba(0,0,0,1)] hover:-translate-y-2 hover:-translate-x-2 transition-all duration-300"
+            />
+          </div>
           <p className="font-body-lg text-body-lg mb-12 max-w-2xl mx-auto">
             Laboratorium kreatif yang didedikasikan untuk membangun solusi digital yang tangguh dan presisi akademik yang tak tertandingi. Kami menggabungkan estetika dengan fungsi secara sempurna.
           </p>

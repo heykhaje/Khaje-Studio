@@ -4,12 +4,12 @@ export default function Home() {
   return (
     <main className="flex-1">
       {/* Hero Section */}
-      <section className="relative flex flex-col items-center justify-start text-center px-margin-mobile pt-8 pb-12 md:pt-12 md:pb-16 border-b-4 border-on-surface overflow-hidden">
+      <section className="relative flex flex-col items-center justify-start text-center px-margin-mobile pt-0 pb-12 md:pt-0 md:pb-16 border-b-4 border-on-surface overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-10 bg-primary pointer-events-none" />
         
         <div className="relative z-10 max-w-4xl">
           <h1 className="sr-only">Solusi Digital & Akademik Terbaikmu</h1>
-          <div className="flex justify-center items-center mb-4 w-full max-w-lg md:max-w-xl mx-auto">
+          <div className="flex justify-center items-center -mb-12 md:-mb-20 w-full max-w-sm md:max-w-md mx-auto -mt-6 md:-mt-10">
             <img 
               src="/hero-title.png" 
               alt="Solusi Digital dan Akademik Terbaikmu" 

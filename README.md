@@ -46,6 +46,10 @@ Selama masa pengembangan, kami menghadapi dan menyelesaikan berbagai kendala tek
   Memperbaiki struktur tata letak (seperti penempatan gambar *Gundam*) agar tetap berada di samping elemen teks pada layar *mobile*, tidak terlempar ke bawah.
 * **Sinkronisasi Aset Vercel**: 
   Menyelesaikan kendala *delay* pada *caching* *development server* dan memastikan file statis (`icon.png`, `adji-pras.jpeg`) ter- *commit* dengan baik ke GitHub agar Vercel dapat mendeteksinya di *live production*.
+* **Konfigurasi SEO Tingkat Lanjut**:
+  Menambahkan verifikasi Google Search Console (`google225c45eb0a10bf80.html`), membuat peta situs dinamis (`sitemap.ts`), dan memperbarui spesifikasi metadata *Favicon* (termasuk kelipatan `192x192`, `512x512`, dan `apple-touch-icon`) agar memenuhi standar indeks *Google Search Engine Results Pages* (SERP).
+* **Optimalisasi Jarak & Ukuran Hero Section**:
+  Mengganti teks judul raksasa di halaman utama dengan logo gambar berdesain kustom (`hero-title.png`). Mengatasi isu ruang kosong (celah berlebih) antara navigasi dan gambar menggunakan teknik modifikasi *padding* nol dan *negative margins* (`-mt`, `-mb`) tingkat tinggi, memaksa seluruh elemen saling merapat sempurna sesuai karakteristik padat *Neo-Brutalism*.
 
 ---
 
